@@ -1,0 +1,79 @@
+{
+  "url": "https://tech.iheart.com",
+  "feed": "https://tech.iheart.com/feed",
+  "name": "iHeartRadio Tech Blog",
+  "description": "Engineering and technology blog from iHeartRadio covering machine learning, testing, personalization, and developer culture.",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "Element Location In XCUITests",
+      "date": "2025-05-15",
+      "url": "https://tech.iheart.com/element-location-in-xcuitests-f54ff226000d",
+      "author": "Sreekala Kutty",
+      "summary": "Guide covering techniques for locating UI elements in iOS automated testing using XCUI, including accessibility identifiers, predicates, and hierarchical searches."
+    },
+    {
+      "title": "The Importance of Utterance Testing in App Development",
+      "date": "2024-12-12",
+      "url": "https://tech.iheart.com/iheartradio-utterance-test-alexa-google-4df5d0e3ff1b",
+      "author": "Chitra Selvaraj",
+      "summary": "Explores how iHeartRadio tests voice assistant integration with Alexa and Google through utterance testing to ensure accurate speech recognition and natural language understanding."
+    },
+    {
+      "title": "Junior Development @ iHeartRadio",
+      "date": "2022-09-13",
+      "url": "https://tech.iheart.com/junior-development-iheartradio-21f99d5b13f5",
+      "author": "Sarah Morris O'Keefe",
+      "summary": "Personal account of junior developer onboarding experience, mentorship opportunities, and collaborative team environment at a Fortune 500 company."
+    },
+    {
+      "title": "iHeartRadio HackWeek 2021",
+      "date": "2021-10-23",
+      "url": "https://tech.iheart.com/iheartradio-hackweek-2021-21fb15d3387f",
+      "author": "Sarah Morris O'Keefe",
+      "summary": "Annual week-long hackathon event featuring cross-departmental teams creating innovative projects, with winners including SpeakerBoxx for interactive radio host engagement."
+    },
+    {
+      "title": "My Playlist for Free Users",
+      "date": "2021-04-30",
+      "url": "https://tech.iheart.com/my-playlist-for-free-users-a-data-driven-backfill-service-for-playlist-continuation-at-scale-1d3c6d4effc5",
+      "author": "Priyanka Chakraborti",
+      "summary": "Technical deep-dive on machine learning approach using Bayesian ranking to augment user-created playlists with intelligent track recommendations at scale."
+    },
+    {
+      "title": "Cypress - JavaScript E2E Testing Framework",
+      "date": "2021-03-10",
+      "url": "https://tech.iheart.com/cypress-javascript-e2e-functional-testing-framework-in-a-nutshell-complete-guide-to-dev-test-974907993ba7",
+      "author": "Chitra Selvaraj",
+      "summary": "Comprehensive guide explaining Cypress framework benefits, features, implementation strategies, and best practices for end-to-end web application testing."
+    },
+    {
+      "title": "Predicting Musical Tastes to Improve Personalization",
+      "date": "2020-10-28",
+      "url": "https://tech.iheart.com/predicting-musical-tastes-to-improve-personalization-4a336e994852",
+      "author": "Brian Schmidt",
+      "summary": "Machine learning approach using neural networks to build taste profiles predicting user genre preferences, enabling personalized playlist recommendations."
+    },
+    {
+      "title": "Real-Time Music Recommendations for New Users with Amazon SageMaker",
+      "date": "2019-11-21",
+      "url": "https://tech.iheart.com/real-time-music-recommendations-for-new-users-with-amazon-sagemaker-364b346d07db",
+      "author": "Jordan Rosenblum",
+      "summary": "Details how demographic data and registration preferences power real-time genre recommendations using LightGBM models served via AWS SageMaker, achieving 8.7% CTR lift."
+    },
+    {
+      "title": "iHeartRadio Summer HackWeek 2019",
+      "date": "2019-08-07",
+      "url": "https://tech.iheart.com/iheartradio-summer-hackweek-2019-d1e6b37bb692",
+      "author": "Tom Drapeau",
+      "summary": "Event recap of annual week-long engineering retreat where 65 professionals across roles built 21 innovative projects ranging from AR experiences to hardware implementations."
+    },
+    {
+      "title": "iHeartRadio Winter HackDay 2019",
+      "date": "2019-04-10",
+      "url": "https://tech.iheart.com/iheartradio-winter-hackday-2019-cb7ff21aa3d2",
+      "author": "Andrew Vickory",
+      "summary": "Twenty-four-hour hackathon featuring 56 participants creating practical solutions, with winners including audio fingerprinting pipeline and podcast captioning features."
+    }
+  ]
+}

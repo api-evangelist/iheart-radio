@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.iheart.com",
+  "name": "iHeartRadio",
+  "description": "iHeartRadio is a digital radio platform operated by iHeartMedia that provides access to over 800 live broadcast and digital-only radio stations from more than 150 U.S. cities, podcasts, artist-based custom stations, and curated music content.",
+  "url": "https://www.iheart.com",
+  "sameAs": [
+    "https://developer.iheart.com",
+    "https://github.com/iheartradio",
+    "https://tech.iheart.com"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "developer support",
+    "url": "https://help.iheart.com"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "iHeartRadio APIs",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "iHeartRadio Catalog API",
+        "description": "Search and discovery capabilities across the iHeartRadio content catalog, including live broadcast radio stations, digital-only stations, podcasts, artists, tracks, and playlists.",
+        "url": "https://developer.iheart.com",
+        "category": "API"
+      },
+      {
+        "@type": "Offer",
+        "name": "iHeartRadio Live Stations API",
+        "description": "Access to live broadcast radio station information including station metadata, market information, genre classification, and streaming URLs across multiple formats.",
+        "url": "https://developer.iheart.com",
+        "category": "API"
+      },
+      {
+        "@type": "Offer",
+        "name": "iHeartRadio Podcasts API",
+        "description": "Search and discovery of podcasts available on the iHeartRadio platform, along with retrieval of individual podcast episode listings and direct audio stream URLs.",
+        "url": "https://developer.iheart.com",
+        "category": "API"
+      }
+    ]
+  },
+  "knowsAbout": [
+    "Radio Stations",
+    "Podcasts",
+    "Music Streaming",
+    "Audio",
+    "Live Radio",
+    "Digital Media",
+    "Music Discovery"
+  ],
+  "termsOfService": "https://www.iheart.com/content/terms-of-use/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://api.iheart.com/api/v3/catalog/searchAll?keywords={search_term_string}",
+      "actionAccessibilityRequirement": {
+        "@type": "ActionAccessSpecification",
+        "requiresSubscription": false
+      }
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
