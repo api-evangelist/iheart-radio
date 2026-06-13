@@ -1,0 +1,42 @@
+rate_limits:
+  description: >-
+    iHeartRadio does not publish official rate limits for its public catalog
+    API endpoints. The developer program that was launched in January 2012
+    has since been wound down as a formal program, and the developer portal
+    at developer.iheart.com is no longer actively maintained. The catalog API
+    endpoints (api.iheart.com) remain accessible for search and station data
+    retrieval without an API key, but iHeartRadio's Terms of Service prohibit
+    bulk scraping, building databases from API content, and creating permanent
+    copies of content. Rate limiting behavior is enforced at the infrastructure
+    level without published quotas.
+  endpoints:
+    - endpoint: /api/v1/catalog/searchAll
+      method: GET
+      rate_limit: unspecified
+      authentication: none
+      notes: >-
+        Searches across all catalog types including stations, podcasts, artists,
+        tracks, and playlists. Keywords parameter required. Supports optional
+        parameters for filtering by content type (queryStation, queryArtist,
+        queryTrack, queryTalkShow) and pagination (startIndex, maxRows).
+    - endpoint: /api/v2/content/liveStations/{station_id}
+      method: GET
+      rate_limit: unspecified
+      authentication: none
+      notes: >-
+        Retrieves individual station information by numeric station ID.
+        Returns station metadata and available stream URLs across multiple
+        protocols (HLS, Shoutcast, RTMP, StreamTheWorld, PLS).
+    - endpoint: /api/v3/podcast/categories/{podcast_id}/episodes
+      method: GET
+      rate_limit: unspecified
+      authentication: none
+      notes: >-
+        Retrieves episode listings for a specific podcast with direct audio
+        stream URLs for each episode.
+  terms_of_service: https://www.iheart.com/content/terms-of-use/
+  restrictions:
+    - Bulk scraping of content is prohibited
+    - Building permanent databases from API content is prohibited
+    - Copying, translating, or creating derivative works from API content requires prior written consent
+    - Any confidential information received through API access must not be disclosed to third parties

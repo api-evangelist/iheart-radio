@@ -1,0 +1,62 @@
+plans:
+  - name: Free
+    description: >-
+      The iHeartRadio free tier provides unlimited access to live broadcast
+      radio stations, podcasts, and artist-based custom stations. The free plan
+      is ad-supported and includes limited daily song skips on custom stations.
+      No API key or account is required to access the public catalog API
+      endpoints for searching stations, podcasts, artists, and tracks.
+    url: https://help.iheart.com/hc/en-us/articles/20310091985549-iHeart-Plans
+    price: 0.00
+    currency: USD
+    billing_cycle: monthly
+    features:
+      - Live broadcast radio streaming (800+ stations, 150+ cities)
+      - Digital-only station access
+      - Podcast discovery and streaming
+      - Artist custom stations
+      - Catalog search for stations, podcasts, artists, tracks
+      - Limited daily song skips on custom stations
+      - Ad-supported experience
+    rate_limits:
+      - requests_per_day: unspecified
+        notes: No published rate limits for the public catalog API
+  - name: iHeartRadio Plus
+    description: >-
+      iHeartRadio Plus adds unlimited song skips, instant replay of songs heard
+      on stations, and on-demand playback of specific songs and albums. Designed
+      for users who want more control over their listening experience without
+      full on-demand library access.
+    url: https://help.iheart.com/hc/en-us/articles/20310091985549-iHeart-Plans
+    price: 5.99
+    currency: USD
+    billing_cycle: monthly
+    features:
+      - All Free tier features
+      - Unlimited song skips
+      - Instant replay from radio stations
+      - Search and play specific songs on-demand
+      - Personal playlist creation
+      - Ad-free listening experience
+    rate_limits:
+      - requests_per_day: unspecified
+        notes: No published rate limits
+  - name: iHeartRadio All Access
+    description: >-
+      iHeartRadio All Access provides the complete music streaming experience
+      with full on-demand access to the entire music library, offline download
+      capability, and all Plus tier features. Comparable to major on-demand
+      streaming services.
+    url: https://help.iheart.com/hc/en-us/articles/20310091985549-iHeart-Plans
+    price: 12.99
+    currency: USD
+    billing_cycle: monthly
+    features:
+      - All Plus tier features
+      - Full on-demand access to complete music library
+      - Offline listening with downloads
+      - Save and replay any station broadcast
+      - Ad-free listening experience
+    rate_limits:
+      - requests_per_day: unspecified
+        notes: No published rate limits

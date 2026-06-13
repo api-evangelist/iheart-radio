@@ -1,0 +1,123 @@
+name: iHeartRadio
+description: >-
+  iHeartRadio is a digital radio platform operated by iHeartMedia that provides
+  access to over 800 live broadcast and digital-only radio stations from more
+  than 150 U.S. cities, podcasts, artist-based custom stations, and curated
+  music content. The platform offers REST APIs enabling programmatic access to
+  live station streams, catalog search across stations, podcasts, artists and
+  tracks, and podcast episode retrieval with direct audio stream URLs.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Radio
+  - Podcasts
+  - Music
+  - Streaming
+  - Audio
+  - Live Radio
+  - Digital Media
+url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+apis:
+  - name: iHeartRadio Catalog API
+    description: >-
+      The iHeartRadio Catalog API provides search and discovery capabilities
+      across the iHeartRadio content catalog, including live broadcast radio
+      stations, digital-only stations, podcasts, artists, tracks, and playlists.
+      Results include station metadata, stream URLs, podcast episode information,
+      and artist data. The API is accessible without authentication for basic
+      catalog queries.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.iheart.com
+    baseURL: https://api.iheart.com
+    tags:
+      - Radio Stations
+      - Podcasts
+      - Search
+      - Catalog
+      - Music Discovery
+    properties:
+      - type: Documentation
+        url: https://developer.iheart.com
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/openapi.yml
+    contact:
+      - FN: iHeartRadio Developer Support
+        url: https://help.iheart.com
+        email: ''
+  - name: iHeartRadio Live Stations API
+    description: >-
+      The iHeartRadio Live Stations API provides access to live broadcast radio
+      station information including station metadata, market information, genre
+      classification, and streaming URLs across multiple formats including HLS,
+      Shoutcast, RTMP, and StreamTheWorld protocols. Supports retrieval of
+      individual station details by station ID.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.iheart.com
+    baseURL: https://api.iheart.com
+    tags:
+      - Live Radio
+      - Streaming
+      - Radio Stations
+      - HLS
+      - Shoutcast
+    properties:
+      - type: Documentation
+        url: https://developer.iheart.com
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/openapi.yml
+    contact:
+      - FN: iHeartRadio Developer Support
+        url: https://help.iheart.com
+        email: ''
+  - name: iHeartRadio Podcasts API
+    description: >-
+      The iHeartRadio Podcasts API enables search and discovery of podcasts
+      available on the iHeartRadio platform, along with retrieval of individual
+      podcast episode listings and direct audio stream URLs for episode playback.
+      Supports searching for podcasts by name and retrieving full episode
+      catalogs for any podcast series.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.iheart.com
+    baseURL: https://api.iheart.com
+    tags:
+      - Podcasts
+      - Episodes
+      - Audio
+      - Streaming
+    properties:
+      - type: Documentation
+        url: https://developer.iheart.com
+      - type: OpenAPI
+        url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/openapi.yml
+    contact:
+      - FN: iHeartRadio Developer Support
+        url: https://help.iheart.com
+        email: ''
+common:
+  - type: Press Release
+    url: https://www.iheartmedia.com/press/clear-channel-radio-launches-developer-program-iheartradio
+  - type: Website
+    url: https://www.iheart.com
+  - type: Help
+    url: https://help.iheart.com
+  - type: Terms of Service
+    url: https://www.iheart.com/content/terms-of-use/
+  - type: GitHub
+    url: https://github.com/iheartradio
+  - type: Tech Blog
+    url: https://tech.iheart.com
+  - type: Pricing
+    url: https://help.iheart.com/hc/en-us/articles/20310091985549-iHeart-Plans
+  - type: Status
+    url: https://instatus.com/now/iheart.com
+  - type: Plans
+    url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/plans/plans.yml
+  - type: Rate Limits
+    url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/rate-limits/rate-limits.yml
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/finops/finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

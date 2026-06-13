@@ -1,0 +1,41 @@
+finops:
+  description: >-
+    iHeartRadio operates a freemium consumer subscription model for end-users
+    rather than a metered API billing model for developers. The formal developer
+    API program launched in 2012 was not accompanied by published API-level
+    pricing or consumption-based billing. Developer integrations historically
+    required partnership agreements with iHeartMedia. Consumer-facing
+    subscription plans are the primary revenue mechanism, with the free tier
+    supported by audio advertising.
+  api_billing_model: none_published
+  consumer_plans:
+    - name: Free
+      price_usd_monthly: 0.00
+      revenue_model: Ad-supported audio advertising
+      api_access: Public catalog endpoints (no key required)
+    - name: iHeartRadio Plus
+      price_usd_monthly: 5.99
+      revenue_model: Subscription
+      api_access: Not applicable (consumer plan)
+    - name: iHeartRadio All Access
+      price_usd_monthly: 12.99
+      revenue_model: Subscription
+      api_access: Not applicable (consumer plan)
+  developer_program:
+    status: inactive
+    launched: '2012-01-10'
+    notes: >-
+      The iHeartRadio Developer Program was announced by Clear Channel Radio
+      (now iHeartMedia) in January 2012 to enable third-party developers to
+      integrate iHeartRadio content into their products. Early showcase partners
+      included Xbox 360, Toyota Entune, Yahoo TV, and Grace Digital. The formal
+      developer portal (developer.iheart.com) is no longer actively maintained.
+      Commercial integrations now occur through iHeartMedia's business
+      development and partnership channels rather than a self-serve API program.
+  cost_optimization:
+    - Use public catalog search endpoints for station and podcast discovery without authentication
+    - Cache station stream URL responses locally as they are described as extremely stable
+    - Implement session reuse and configurable timeouts to reduce redundant API calls
+    - Use pagination parameters (startIndex, maxRows) to limit response sizes
+  partnership_url: https://www.iheartmedia.com/partnerships
+  pricing_url: https://help.iheart.com/hc/en-us/articles/20310091985549-iHeart-Plans
