@@ -6,7 +6,7 @@ description: >-
   music content. The platform offers REST APIs enabling programmatic access to
   live station streams, catalog search across stations, podcasts, artists and
   tracks, and podcast episode retrieval with direct audio stream URLs.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Radio
   - Podcasts
@@ -28,7 +28,7 @@ apis:
       Results include station metadata, stream URLs, podcast episode information,
       and artist data. The API is accessible without authentication for basic
       catalog queries.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.iheart.com
     baseURL: https://api.iheart.com
     tags:
@@ -53,7 +53,7 @@ apis:
       classification, and streaming URLs across multiple formats including HLS,
       Shoutcast, RTMP, and StreamTheWorld protocols. Supports retrieval of
       individual station details by station ID.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.iheart.com
     baseURL: https://api.iheart.com
     tags:
@@ -78,7 +78,7 @@ apis:
       podcast episode listings and direct audio stream URLs for episode playback.
       Supports searching for podcasts by name and retrieving full episode
       catalogs for any podcast series.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://developer.iheart.com
     baseURL: https://api.iheart.com
     tags:
