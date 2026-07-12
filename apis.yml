@@ -96,6 +96,8 @@ apis:
         url: https://help.iheart.com
         email: ''
 common:
+  - type: DomainSecurity
+    url: security/iheart-radio-domain-security.yml
   - type: Press Release
     url: https://www.iheartmedia.com/press/clear-channel-radio-launches-developer-program-iheartradio
   - type: Website
