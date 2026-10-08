@@ -64,3 +64,29 @@ plans:
     rate_limits:
       - requests_per_day: unspecified
         notes: No published rate limits
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - subscription
+  units: []
+  plans:
+  - name: Free
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods: []
+  - name: iHeartRadio Plus
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: iHeartRadio All Access
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
