@@ -3,7 +3,7 @@
   "feed": "https://tech.iheart.com/feed",
   "name": "iHeartRadio Tech Blog",
   "description": "Engineering and technology blog from iHeartRadio covering machine learning, testing, personalization, and developer culture.",
-  "fetched": "2026-07-04T12:55:15Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "posts": [
     {
       "title": "Element Location In XCUITests",
@@ -75,5 +75,16 @@
       "author": "Andrew Vickory",
       "summary": "Twenty-four-hour hackathon featuring 56 participants creating practical solutions, with winners including audio fingerprinting pipeline and podcast captioning features."
     }
-  ]
+  ],
+  "repo": "iheart-radio",
+  "feeds": [
+    {
+      "source": "https://blog.iheart.com/rss.xml",
+      "feed_url": "https://blog.iheart.com/rss.xml",
+      "title": "",
+      "saved": 1,
+      "method": "feed"
+    }
+  ],
+  "post_count": 1
 }
